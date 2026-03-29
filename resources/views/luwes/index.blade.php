@@ -9,17 +9,17 @@
     
     <p>{{ $greeting }}</p>
 
+    @if($greeting == "hello")
+        <p>Hi from inside the if statement</p>
+    @endif
+
     <ul>
-        <li>
-            <a href="/luwes/{{$ninjas[0]["id"]}}">
-                {{ $ninjas[0]["name"]}}
-            </a>
-        </li>
-        <li>
-            <a href="/luwes/{{$ninjas[1]["id"]}}">
-                {{ $ninjas[1]["name"]}}
-            </a>
-        </li>
+        @foreach($ninjas as $ninja)
+            <li>
+                <p>{{ $ninja['name']}}</p>
+                <a href="/ninjas/{{ $ninja['id']}} ">View details</a>
+            </li>
+        @endforeach
     </ul>
 </body>
 </html>
