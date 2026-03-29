@@ -7,8 +7,8 @@
 <body>
     <h1>Welcome</h1>
     <p>click the button below to view the list of miners</p>
-    <a href="" class="btn">
-        Find miners
+    <a href="/luwes" class="btn">
+        Find miners 
     </a>
 </body>
 </html>
