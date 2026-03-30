@@ -7,7 +7,7 @@
 <body>
     <h1>Welcome</h1>
     <p>click the button below to view the list of miners</p>
-    <a href="/luwes" class="btn">
+    <a href="/ninjas" class="btn">
         Find miners 
     </a>
 </body>
